@@ -1,0 +1,35 @@
+name: Error de instalación
+description: El instalador no detecta o no puede modificar la instalación compatible.
+title: "[Instalación] "
+body:
+  - type: markdown
+    attributes:
+      value: "Comprueba que tienes CHAOS;HEAD NOAH para Steam y Committee of Zero 1.1.3. No adjuntes archivos del juego ni del parche."
+  - type: textarea
+    id: problem
+    attributes:
+      label: ¿Qué ocurrió?
+      description: Copia el mensaje exacto del instalador.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Pasos realizados
+      description: Describe brevemente cómo llegaste al error.
+    validations:
+      required: true
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Captura
+      description: Adjunta una captura. Oculta nombres de usuario u otra información personal.
+    validations:
+      required: false
+  - type: input
+    id: versions
+    attributes:
+      label: Versiones del juego y de Committee of Zero
+      placeholder: Steam / Overhaul Patch 1.1.3
+    validations:
+      required: true

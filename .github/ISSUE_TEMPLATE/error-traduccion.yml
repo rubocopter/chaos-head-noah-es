@@ -1,0 +1,35 @@
+name: Error de traducción
+description: Informa de un texto, término o formato que convenga corregir.
+title: "[Traducción] "
+body:
+  - type: markdown
+    attributes:
+      value: "Para localizar el texto, incluye una captura, la escena/contexto y el texto problemático."
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Captura
+      description: Adjunta una imagen donde se vea el texto en el juego.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Escena y contexto
+      description: Indica el capítulo, personaje o qué ocurre en la escena.
+    validations:
+      required: true
+  - type: textarea
+    id: text
+    attributes:
+      label: Texto problemático
+      description: Copia el texto actual y, si puedes, explica qué debería corregirse.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Versión de la traducción
+      placeholder: v1.0.0
+    validations:
+      required: true

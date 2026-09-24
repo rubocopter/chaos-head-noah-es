@@ -1,0 +1,34 @@
+name: Problema de compatibilidad
+description: Informa de una instalación que el instalador rechaza o de un conflicto de versiones.
+title: "[Compatibilidad] "
+body:
+  - type: markdown
+    attributes:
+      value: "No compartas ejecutables, archivos CPK ni otros archivos del juego o de Committee of Zero."
+  - type: input
+    id: game
+    attributes:
+      label: Edición y versión del juego
+    validations:
+      required: true
+  - type: input
+    id: coz
+    attributes:
+      label: Versión de Committee of Zero
+      placeholder: 1.1.3 / intVersion 8
+    validations:
+      required: true
+  - type: textarea
+    id: error
+    attributes:
+      label: Mensaje o comportamiento
+      description: Copia el mensaje exacto y describe qué esperabas que ocurriera.
+    validations:
+      required: true
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Captura
+      description: Adjunta una captura y oculta datos personales.
+    validations:
+      required: false
