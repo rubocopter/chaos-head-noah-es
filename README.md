@@ -6,7 +6,7 @@
 
 Traducción completa al castellano de **CHAOS;HEAD NOAH**, revisada editorialmente y preparada para la versión de Steam con Committee of Zero CHAOS;HEAD NOAH Overhaul Patch 1.1.3.
 
-**Estado:** traducción candidata estable `v1.0.0`. La prueba en juego está completada; la publicación del instalador espera cerrar la revisión de distribución del payload.
+**Disponible:** versión pública `v1.0.0`. El instalador y sus sumas SHA-256 están en [GitHub Releases](https://github.com/rubocopter/chaos-head-noah-es/releases/tag/v1.0.0).
 
 [Consultar Releases](https://github.com/rubocopter/chaos-head-noah-es/releases) · [Ver cambios](CHANGELOG.md) · [Informar de un problema](https://github.com/rubocopter/chaos-head-noah-es/issues/new/choose)
 
@@ -40,7 +40,7 @@ Committee of Zero es un requisito externo. Este proyecto no incluye ni redistrib
 
 1. Instala CHAOS;HEAD NOAH desde Steam.
 2. Instala Committee of Zero CHAOS;HEAD NOAH Overhaul Patch 1.1.3 desde su fuente oficial.
-3. Cuando esté publicada, descarga `CHAOS-HEAD-NOAH-ES-Setup.exe` desde [Releases](https://github.com/rubocopter/chaos-head-noah-es/releases).
+3. Descarga `CHAOS-HEAD-NOAH-ES-Setup.exe` desde la [release v1.0.0](https://github.com/rubocopter/chaos-head-noah-es/releases/tag/v1.0.0).
 4. Ejecuta el instalador y comprueba que reconoce el juego y Committee of Zero.
 5. Pulsa **Instalar** y espera a que termine la verificación.
 
@@ -76,4 +76,4 @@ Proyecto fan no oficial. No está afiliado ni respaldado por MAGES., Spike Chuns
 
 ## Descarga
 
-El instalador y su `SHA256SUMS.txt` se ofrecerán en [Releases](https://github.com/rubocopter/chaos-head-noah-es/releases) cuando finalice la revisión del payload. Los ejecutables y demás binarios se publican en Releases, nunca en el historial de este repositorio.
+El instalador, `SHA256SUMS.txt` y el aviso de licencias de terceros están disponibles en [Releases](https://github.com/rubocopter/chaos-head-noah-es/releases). Los ejecutables y demás binarios se publican en Releases, nunca en el historial de este repositorio.
