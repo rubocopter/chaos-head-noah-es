@@ -6,7 +6,7 @@
 
 Traducción completa al castellano de **CHAOS;HEAD NOAH**, revisada editorialmente y preparada para la versión de Steam con Committee of Zero CHAOS;HEAD NOAH Overhaul Patch 1.1.3.
 
-**Disponible:** versión pública `v1.0.0`. El instalador y sus sumas SHA-256 están en [GitHub Releases](https://github.com/rubocopter/chaos-head-noah-es/releases/tag/v1.0.0).
+**Disponible:** versión pública `v1.1.0`. Descarga el instalador y sus sumas SHA-256 desde la [release v1.1.0](https://github.com/rubocopter/chaos-head-noah-es/releases/tag/v1.1.0). La [v1.0.0](https://github.com/rubocopter/chaos-head-noah-es/releases/tag/v1.0.0) permanece disponible.
 
 [Consultar Releases](https://github.com/rubocopter/chaos-head-noah-es/releases) · [Ver cambios](CHANGELOG.md) · [Informar de un problema](https://github.com/rubocopter/chaos-head-noah-es/issues/new/choose)
 
@@ -16,7 +16,17 @@ El texto completo se revisó teniendo en cuenta el contexto de cada escena, las 
 
 La traducción se instala sobre el parche de Committee of Zero. El instalador comprueba la compatibilidad, guarda una copia de los archivos que modifica, verifica el resultado y permite restaurar el estado anterior.
 
-## Capturas
+La `v1.1.0` añade **nueve recursos gráficos de interfaz en español**: configuración, biblioteca, música, accesos rápidos, TIPS, álbum y backlog. La traducción narrativa de `v1.0.0` se conserva íntegra. Los recursos de interfaz se aplican a `languagebarrier/c0data.cpk` de CoZ 1.1.3; los archivos originales `system_eng.cpk` y `manual_eng.cpk` no se modifican.
+
+## Capturas de la interfaz v1.1.0
+
+<p align="center"><img src="assets/screenshots/tips-v1.1.0.jpg" alt="Lista de TIPS con rótulos de interfaz en español" width="700"></p>
+
+<p align="center"><img src="assets/screenshots/biblioteca-v1.1.0.jpg" alt="Biblioteca de CG, sonido, vídeo y lista de TIPS en español" width="700"></p>
+
+<p align="center"><img src="assets/screenshots/configuracion-v1.1.0.jpg" alt="Configuración de teclas con rótulos en español" width="700"></p>
+
+## Capturas de la traducción narrativa
 
 <p align="center"><img src="assets/screenshots/instalador.png" alt="Instalador de la traducción, con juego y parche compatibles detectados" width="700"></p>
 
@@ -32,7 +42,7 @@ La traducción se instala sobre el parche de Committee of Zero. El instalador co
 - **CHAOS;HEAD NOAH Overhaul Patch 1.1.3** de Committee of Zero, instalado antes de esta traducción. Descárgalo desde la [página oficial del proyecto](https://sonome.dareno.me/projects/chn-patch.html) o sus [releases oficiales](https://github.com/CommitteeOfZero/chn-patch/releases).
 - Windows de 64 bits.
 
-El instalador acepta la combinación compatible exacta: comprueba `Game.exe`, la información de versión de CoZ (`intVersion: 8`) y los archivos `c0script.cpk`, `c0mes00.cpk` y `c0mes01.cpk`. Si detecta otra versión o una base modificada, se detiene sin instalar la traducción.
+El instalador acepta la combinación compatible exacta: comprueba `Game.exe`, la información de versión de CoZ (`intVersion: 8`) y los archivos `c0script.cpk`, `c0mes00.cpk`, `c0mes01.cpk` y `languagebarrier/c0data.cpk`. Si detecta otra versión o una base modificada, se detiene sin instalar la traducción.
 
 Committee of Zero es un requisito externo. Este proyecto no incluye ni redistribuye su parche; instálalo desde sus canales oficiales antes de continuar.
 
@@ -40,15 +50,17 @@ Committee of Zero es un requisito externo. Este proyecto no incluye ni redistrib
 
 1. Instala CHAOS;HEAD NOAH desde Steam.
 2. Instala Committee of Zero CHAOS;HEAD NOAH Overhaul Patch 1.1.3 desde su fuente oficial.
-3. Descarga `CHAOS-HEAD-NOAH-ES-Setup.exe` desde la [release v1.0.0](https://github.com/rubocopter/chaos-head-noah-es/releases/tag/v1.0.0).
+3. Descarga `CHAOS-HEAD-NOAH-ES-Setup.exe` desde la [release v1.1.0](https://github.com/rubocopter/chaos-head-noah-es/releases/tag/v1.1.0).
 4. Ejecuta el instalador y comprueba que reconoce el juego y Committee of Zero.
 5. Pulsa **Instalar** y espera a que termine la verificación.
 
-El instalador detecta la carpeta de Steam automáticamente. Si fuera necesario, puedes seleccionarla con **Cambiar**. Aplica un delta únicamente a la base compatible exacta y verifica el archivo reconstruido. La descarga no incluye el CPK original ni el CPK traducido completo.
+El instalador detecta la carpeta de Steam automáticamente. Si fuera necesario, puedes seleccionarla con **Cambiar**. También puedes actualizar directamente una instalación española `v1.0.0`: se conserva su copia de seguridad histórica y se crea la copia correspondiente a `v1.1.0`.
+
+La instalación puede tardar más que en `v1.0.0` porque reconstruye, respalda y verifica `c0data.cpk`, un archivo de aproximadamente 2,26 GB. Espera a que el instalador termine. La descarga no incluye CPK originales ni CPK traducidos completos. Al finalizar, el instalador no inicia el juego ni el launcher de CoZ; su configuración queda en manos del usuario.
 
 ## Restaurar los archivos originales
 
-Abre de nuevo el instalador y pulsa **Restaurar original**. Se recuperan los archivos guardados antes de la instalación, incluido el `c0mes01.cpk` original de Committee of Zero. La restauración comprueba el archivo recuperado.
+Abre de nuevo el instalador y pulsa **Restaurar original**. Se recuperan los archivos guardados antes de la instalación, incluidos `c0mes01.cpk` y `c0data.cpk` originales de Committee of Zero. La restauración comprueba sus hashes.
 
 ## Compatibilidad
 
