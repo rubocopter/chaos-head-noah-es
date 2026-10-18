@@ -111,6 +111,12 @@ Al actualizar desde `v1.0.0`, el instalador conserva su copia de seguridad hist�
 
 Proyecto fan no oficial. No está afiliado ni respaldado por MAGES., Spike Chunsoft ni Committee of Zero. Se requiere una copia legítima del juego. Los nombres, marcas, imágenes y contenidos de CHAOS;HEAD NOAH y del parche pertenecen a sus respectivos titulares; su inclusión aquí sirve únicamente para identificar y mostrar el proyecto. Este repositorio no concede derechos sobre esos materiales.
 
+## Derechos de autor y reutilización
+
+Las aportaciones editoriales originales de esta traducción, en la medida en que sus derechos correspondan al responsable del proyecto, se publican **con todos los derechos reservados** y sin una licencia general de reutilización. La traducción es derivada de una obra comercial y de una base de traducción de terceros: esta declaración **no concede ni pretende asumir derechos** sobre el juego o el parche Committee of Zero.
+
+Consulta [derechos, procedencia y permisos](DERECHOS_Y_REUTILIZACION.md) antes de copiar, modificar, integrar o redistribuir archivos. Puedes compartir el enlace a la versión oficial del proyecto.
+
 ## Descargas
 
 El instalador, `SHA256SUMS.txt` y el aviso de licencias de terceros están disponibles en [GitHub Releases](https://github.com/rubocopter/chaos-head-noah-es/releases). Los ejecutables y demás binarios se publican en Releases, no en el historial del repositorio.
